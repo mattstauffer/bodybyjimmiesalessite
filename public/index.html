@@ -1,22 +1,44 @@
 <html>
 <head>
 	<title>Body By Jimmie - Physical Training, Gainesville, Florida</title>
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
-		background: #000;
+		background: #131315;
 		color: #fff;
 		font-family: arial;
-		padding: 3rem;
+        line-height: 1.3;
+        margin: 0 2rem;
+		padding: 0;
 		text-align: center;
-		text-transform: uppercase;
 	}
+    .container {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    a {
+        color: #ddddff;
+    }
 	h1 {
-		font-size: 5rem;
-		margin-bottom: 0;
+        margin-top: 0;
 	}
-	.intro {
-		font-size: 2rem;
-	}
+    h2, h3, h4, h5 {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    @media only screen and (min-width: 500px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
     .big-link {
 		color: #ffdddd;
 		font-size: 1.5rem;
@@ -25,9 +47,9 @@
 		width: 100%;
 	}
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 1000px) {
         img {
-            max-width: 800px;
+            max-width: 1000px;
         }
     }
     hr {
@@ -36,31 +58,63 @@
         margin-top: 2em;
         width: 25%;
     }
+    .bio {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 30em;
+    }
 	</style>
 </head>
 <body>
-	<h1>Body By Jimmie</h1>
-    <img src="jimmie-quad.jpg">
-	<p class="intro">Coming soon</p>
+    <div class="container">
+        <h1><img src="body-by-jimmie-logo.jpg" alt="Body By Jimmie"></h1>
+        <h2>Coming soon</h2>
 
-    <hr>
+        <hr>
 
-    <div style="background: #fff; color: #000; padding: 1em; max-width: 40em; margin: 0 auto; border-radius: 1em;">
-        <h2 style="">Sign up to be notified when Jimmie's Train Remote program is ready</h2>
-        <form method="POST" action="http://formsnag.com/f/otZyOrZWZkcupjSA5mM5ug3WpDiB4TPc">
-            <label for="email" style="text-transform: none; font-size: 1.5em">Your email address</label><br>
-            <input type="email" name="email" placeholder="your@email.com" style="border: 1px solid #aaa; padding: 0.5em; font-size: 1em; min-width: 50%;margin-bottom: 0.5em"><br>
-            <button style="padding: 0.5em; font-size: 1em; width: 10em; background: #eee; border: 1px solid #aaa;">Sign up</button>
-        </form>
+        <div style="background: #fff; color: #000; padding: 1em; max-width: 40em; margin: 0 auto; border-radius: 1em;">
+            <h2>Sign up to be notified when Jimmie's Train Remote program is ready</h2>
+            <form method="POST" action="http://formsnag.com/f/otZyOrZWZkcupjSA5mM5ug3WpDiB4TPc">
+                <label for="email" style="font-size: 1.25em">Your email address:</label><br>
+                <input type="email" name="email" placeholder="your@email.com" style="border: 1px solid #aaa; padding: 0.5em; font-size: 1em; min-width: 50%;margin-bottom: 0.5em"><br>
+                <button style="padding: 0.5em; font-size: 1em; width: 10em; background: #eee; border: 1px solid #aaa;">Sign up</button>
+            </form>
+            <p>
+        </div>
+
+        <hr>
+
+        <div class="bio">
+            <h2>About Jimmie Jennings</h2>
+            <p>Born and raised in Ocala, Florida, Jimmie Jennings has become a fitness icon in Gainesville with his Body by Jimmie Fitness Program. From pageant girls to athletes to everyday housewives he has created workout programs that produce results. Whether you have a yearly gym membership or a free space in the garage, these workouts will get you into shape!</p>
+
+            <!--
+            <p>Now with Body by Jimmie ONLINE, there are NO more excuses. Workouts will be sent directly to your private email each morning, in which a video is included for each exercise to ensure that you are using the proper form and weights. Working out has never been easier! For a limited  time an entire month of workouts for on special for $100, which includes a sign up package containing a Train Harder tank ___(enter what all the package will include)_,_____,____.</p> 
+            -->
+
+
+            <p>In signing up with Jimmie Jennings you become part of the Jimmie FAMILY and you get treated as such.</p>
+            <p>Taking 30 minutes to an hour each day to do something good for yourself is key in gaining the results you strive for.  Upon signing up you are making the decision to dedicate yourself to an active and healthy lifestyle. It means that with willpower, determination and a whole lot of sweat, you are going to travel on a fitness journey and achieve real results and become the best version of yourself possible. Becoming a part of the Jimmie family also means that you will have access to Jimmie and Heather at all times whether you need encouragement, motivation, clarification on a workout move or a new recipe to throw in your cook book.</p>
+
+            <p>Fitness is what you make it, you get out as much as you are willing to put in. There is no better time than NOW to start changing your life.</p>
+            <p>It's time to turn impossible into I AM POSSIBLE. It's time to TRAIN HARDER.</p>
+        </div>
+        
+        <h2>Elsewhere</h2>
+        <p><a href="http://trainharderfitness.com" class="big-link">Train Harder Fitness - Apparel by Jimmie</a></p>
+        <hr>
+        <p><a href="mailto:jimmiejennings945@gmail.com" class="big-link">Contact Jimmie</a></p>
+        <hr>
+        <p><a href="http://impulsenutrition.org/" class="big-link">Check out the BBJ shake at Impulse Nutrition</a></p>
+
+        <hr>
+        <div class="bio">
+            <h2>Nutrition by Heather</h2>
+            <p>Fitness just isn’t about working out, a key component in achieving ultimate results comes from fueling your body with the correct nutrients, at the correct times.</p>
+            <p>Heather Lacy, who has obtained her Food Science and Human Nutrition B.S. from the University of Florida is here to help! Offering one on one consultations to improve your eating habits and create specific meal plans for each individual. Heather will help optimize your workouts, and fill your body with key nutrients that are vital to building muscles and burning fat.</p>
+
+            <p>To set up a consultation with Heather, contact her at <a href="lacynheather11@gmail.com">lacynheather11@gmail.com</a></p>
+        </div>
     </div>
-
-    <hr>
-    
-    <h2>Elsewhere</h2>
-    <p><a href="http://trainharderfitness.com" class="big-link">Train Harder Fitness - Apparel by Jimmie</a></p>
-    <hr>
-    <p><a href="mailto:jimmiejennings945@gmail.com" class="big-link">Contact Jimmie</a></p>
-    <hr>
-    <p><a href="http://totalnutritiongainesville.com/" class="big-link">Available at Total Nutrition</a></p>
 </body>
 </html>
